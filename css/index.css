@@ -11,6 +11,15 @@
   transition: opacity 1s ease-in;
 }
 
+.viewMore {
+  display:flex;
+  position: absolute;
+  top:95%;
+  left:90%;
+  transform: translate(-50%,-50%);
+  opacity:1;
+}
+
 #videoBackground {
   position:absolute;
   top:0;
@@ -104,6 +113,10 @@ header{
   header {
     height:1200px;
   }
+  .loader{
+    width:300px;
+    height:80px;
+  }
 }
 
 body, html{
@@ -195,6 +208,10 @@ body, html{
   @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
+    }
+    .loader{
+      width:300px;
+      height:80px;
     }
   }
   
