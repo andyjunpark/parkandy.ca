@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  color: darkslategray;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+}
+
+
+h1,
+h2,
+p,
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.intro{
+  background-color: gainsboro;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: darkslategray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkslategray;
+}

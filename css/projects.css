@@ -1,0 +1,158 @@
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   background-color: #FFFFFF;
+   padding:30px;
+   text-align:center;
+}
+
+.grid-container2 {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   background-color: #FFFFFF;
+   padding:30px 200px 30px 200px;
+   text-align:center;
+}
+
+.prototype1 {
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.prototype2 {
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.banner {
+   width:100%;
+   height:auto;
+   display:block; 
+   margin:0 auto 100px auto;
+}
+
+.signhere {
+   background-color:#FFFFFF;
+   height:auto;
+}
+
+h1 {
+   font-family: 'Raleway', sans-serif;
+   padding-top:60px;
+   text-align:left;
+   padding:0 40px 0 40px;
+   color:darkslategray;
+   margin:0;
+   margin-left:100px; 
+   margin-right:100px;
+   margin-top:10px;
+}
+
+h2 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   text-align:left;
+   padding: 0 40px 0 40px;
+   color: gray;
+   margin: 10px 100px 0px 100px;
+}
+
+h3 {
+   font-size: 16px;
+   text-align:left;
+   padding:0 40px 0 40px;
+   color: #5f5e5e;
+   margin-left:100px; 
+   margin-right:100px;
+   margin-top:10px;
+   padding-bottom:10px;
+   line-height: 170%;
+}
+
+.design{
+   width:100%;
+   height:auto;
+   display:block; 
+   margin-left:auto; 
+   margin-right:auto;
+}
+
+/* Accordion Menu */
+.so-tab {
+   position: center;
+   width: 100%;
+   overflow: hidden;
+   margin: 25px 0px;
+ }
+ .so-tab label {
+   position: relative;
+   display: block;
+   padding: 0 25px 0 0;
+   margin: 0 200px 0 200px;
+   line-height: normal;
+   cursor: pointer;
+ }
+ .so-tab input {
+   position: absolute;
+   opacity: 0;
+   z-index: -1;
+ }
+ .so-tab-content {
+   margin:15px 200px 0 200px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height .35s;
+ }
+ /* :checked */
+ .so-tab input:checked ~ .so-tab-content {
+   max-height: none;
+ }
+ /* Icon */
+ .so-tab label::after {
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+   -webkit-transition: all .35s;
+   -o-transition: all .35s;
+   transition: all .35s;
+ }
+ .so-tab input[type=checkbox] + label::after {
+   content: "+";
+ }
+ .so-tab input[type=radio] + label::after {
+   content: "\25BC";
+ }
+ .so-tab input[type=checkbox]:checked + label::after {
+   transform: rotate(315deg);
+ }
+ .so-tab input[type=radio]:checked + label::after {
+   transform: rotateX(180deg);
+ }
+
+@media screen and (max-width: 1080px) {
+   h1,h2,h3 {
+      margin:10px;
+   }
+
+   .grid-container {
+      display: block;
+   }
+
+   .grid-container2 {
+      display: block;
+      padding: 30px;
+   }
+
+   .prototype1 {
+      padding:20px;
+   }
+   
+   .prototype2 {
+      padding:20px;
+   }
+
+   .video_player {
+      width:300px;
+   }
+ } 
