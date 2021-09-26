@@ -6,7 +6,7 @@
         // fade in navbar
         $(function() {
             $(window).scroll(function() {
-                if ($(this).scrollTop() > 800) {
+                if ($(this).scrollTop() > 1000) {
                     $('.scrollnav').fadeIn();
                 } else {
                     $('.scrollnav').fadeOut();
