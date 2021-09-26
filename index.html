@@ -24,7 +24,7 @@
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
     <script src="vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
     <script type = "text/javascript" src="js/scrollnav.js"></script>
-    <script src="js/front.js"></script>
+    <script type = "text/javascript" src="js/front.js"></script>
   </head>
 
   <header class="header">
@@ -73,11 +73,12 @@
   </header>
   
 <body>
+  <!--Video Wrapper-->
     <div class="video-wrap">
       <div class="viewMore">
         <div class="row">
           <div>
-            <a href="#intro" class="continue link-scroll" style="margin:30px; color:darkslategray"><i class="fa fa-long-arrow-down">  View More</i></a>
+            <a href=".bumper" class="continue link-scroll" style="margin:30px; color:darkslategray"><i class="fa fa-long-arrow-down">  View More</i></a>
           </div>
         </div>
       </div>
@@ -85,6 +86,7 @@
         <source src= "video/video1.mp4" type="video/mp4">
       </video>
     </div>
+    <!-- Loader -->
     <svg class="loader" width="514" height="137" viewBox="0 0 514 137" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M89.8831 106.62H30.2991L19.3231 137H0.50705L49.8991 1.17199H70.479L119.675 137H100.859L89.8831 106.62ZM84.787 92.116L60.0911 23.124L35.3951 92.116H84.787Z" stroke="#2F4F4F" & stroke-width="3"/>
       <path d="M248.609 137H230.773L159.037 28.22V137H141.201V0.191986H159.037L230.773 108.776V0.191986H248.609V137Z" stroke="#2F4F4F" & stroke-width="3"/>
@@ -92,34 +94,57 @@
       <path d="M513.24 0.387985L468.748 85.452V137H450.912V85.452L406.224 0.387985H426.02L459.732 69.576L493.444 0.387985H513.24Z" stroke="#2F4F4F" & stroke-width="3"/>
     </svg>
     <script src="js/loader.js"></script>
-    <!--
-        <div class="row">
-          <div class="col-md-2">
-              <a href="#intro" class="continue link-scroll" style="margin:50px; color:darkslategray"><i class="fa fa-long-arrow-down">  View More</i></a>
+
+    <div class="pimg2" id="intro">
+      <div class="ptext" style="padding-top: 50px;">
+        <span class="border trans" style="color:darkslategray;">
+          Research,   Design,   Iterate. 
+        </span>
+      </div>
+    </div>
+  
+    <div class="bumper"></div>
+
+    <div class="horizontal-section">
+      <div class="sticky-wrapper">
+        <div class="element-wrapper">
+          <div class="element">
+            <a href="spacestagram.html">
+              <img src="img/spacetagram_banner.png" alt="Spacestagram" style=" width: 100%; max-width:500px; height: auto;">
+            </a>
+          </div>
+          <div class="element">
+            <a href="melant.html">
+              <img src="img/melant.png" alt="melant_jewellery" style=" width: 100%; max-width:500px; height: auto;">
+            </a>
+          </div>
+          <div class="element">
+            <a href="todolist.html">
+              <img src="img/todolist/todolist_banner.png" alt="todolist" style=" width: 100%; max-width:500px; height: auto;">
+            </a>
+          </div>
+          <div class="element">
+            <a href="oxford.html">
+              <img src="img/Hackathon Banner 2.png" alt="iphone UI UX Prototype" style=" width: 100%; max-width:500px; height: auto;">
+            </a>
+          </div>
+          <div class="element">
+            <a href="signhere.html">
+              <img src="img/Condos Banner.png" alt="Signhere" style=" width: 100%; max-width:500px; height: auto;">
+            </a>
           </div>
         </div>
-      -->
-  <div class="pimg2" id="intro">
-    <div class="ptext">
-      <span class="border trans" style="color:darkslategray">
-        Research,   Design,   Iterate. 
-      </span>
-      <h5 style="color:darkslategray"><br>I'm a UI/UX Enthusiast</h5>
+      </div>
     </div>
-  </div>
-  <a href="melant.html"><img src="img/melant.png" alt="melant_jewellery" style=" width: 100%; max-width:900px; height: auto; margin:200px auto 50px auto;">
-  </a>
-  <a href="oxford.html"><img src="img/Hackathon Banner 2.png" alt="iphone UI UX Prototype" style=" width: 100%; max-width:900px; height: auto; margin:200px auto 50px auto;">
-</a>
 
-  <div class="pimg3">
-    <div class="ptext">
-      <span class="border trans" style="color:darkslategray">
-        Prototype,   Test,   Implement. 
-      </span>
-      <h5 style="color:darkslategray"><br>I'm a passionate creator and designer</h5>
-    </div>
+    <script src="js/scrollhorizontal.js"></script>
+<div class="pimg2" id="intro">
+  <div class="ptext" style="padding-top: 50px;">
+    <span class="border trans" style="color:darkslategray;">
+      Prototype, Test, Implement. 
+    </span>
   </div>
+</div>
   <div class="container2">
     <a href="jump.html" class="image">
       <img src="img/Mockup_Wallpaper_Banner.png" alt="Man Jumps" id="prototype1" style=" width: 100%; max-width:1000px; height: auto; margin:200px auto 0 auto; border: 5px solid #fff;
@@ -138,10 +163,15 @@
       border-radius: 4px;">
     </a>
   </div>
+  <div class="pimg2" id="intro" style="height:400px;">
+    <div class="ptext">
+      <h5 style="color:darkslategray"><br>I'm a passionate creator, designer, and a UI/UX Enthusiast</h5>
+    </div>
+  </div>
 </body>
 
 <section>
-    <h2 style="margin-top: 150px;">FREELANCE</h2>
+    <h2 style="">CONTACT ME</h2>
     <p>
       Are you interested? <br>
       <a href= "https://drive.google.com/file/d/1PCn5JsPlUrD80KlUTlYxvQrnvBgGsBeC/view?usp=sharing" target="_blank">Resume</a>
