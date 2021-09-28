@@ -15,7 +15,7 @@ Accessibility
 ##
 Completed:
 ###
-Completed SSL Certificate
+SSL Certificate
 ###
 added loader
 ###
