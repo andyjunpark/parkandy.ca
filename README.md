@@ -3,9 +3,19 @@
 ## 
 Portfolio Website 
 Entering Version 4:
-
+##
+Working towards:
 ###
-Working towards SSL Certificate
+Converting png & jpg -> webp
+###
+Increase site speed
+###
+Accessibility
+
+##
+Completed:
+###
+Completed SSL Certificate
 ###
 added loader
 ###
