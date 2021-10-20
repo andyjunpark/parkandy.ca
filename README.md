@@ -1,5 +1,8 @@
 # parkandy.ca/
 
+##
+Visit the website on Google Chrome for the best experience.
+
 ## 
 Portfolio Website 
 Entering Version 4:
@@ -7,6 +10,8 @@ Entering Version 4:
 Working towards:
 ###
 Accessibility
+###
+Better interactions on safari and ios devices
 
 ##
 Completed:
